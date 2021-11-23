@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+    box-sizing: content-box;
+    background-color: darkgrey;
+    width: 800px;
+    height: 500px;
+}
+
+.poster {
+    width: 400px;
+}
+
+.info {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px 40px 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin: 0 5px;
+}

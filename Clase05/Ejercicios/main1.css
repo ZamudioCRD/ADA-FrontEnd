@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding: 0 0 40px;
+}
+
+.px250 {
+    box-sizing: content-box;
+    background-color: chocolate;
+    width: 250px;
+}
+
+.flex-grow {
+    box-sizing: content-box;
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+
+.flex-grow2 {
+    box-sizing: content-box;
+    background-color: darkslategray;
+    flex-grow: 2.9;
+}
+
+.flex-grow3 {
+    box-sizing: content-box;
+    background-color: darkslategray;
+    flex-grow: 6;
+}
+
+.px200 {
+    box-sizing: content-box;
+    background-color: chocolate;
+    width: 200px;
+}
+
+.color1 {
+    background-color: darkgreen;
+}
+
+.color2 {
+    background-color: dimgray;
+}

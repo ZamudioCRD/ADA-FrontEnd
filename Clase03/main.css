@@ -1,0 +1,77 @@
+/* Estructura de comentario en CSS*/
+
+
+/*Unico selector*/
+body {
+    background-color:black;
+    color:burlywood;
+  }
+
+/*Varios selectores separados por comas*/
+h1, h2 {
+    background-color:darkblue;
+    color: red;
+}
+
+/*
+Tipos de selectores:
+ - selector universal: *
+ - selector de etiqueta: h1, p, section, footer
+ - selector por clase: .nombreDeClase .secciones
+*/
+
+#principal {
+    font-style: italic;
+}
+
+.secciones {
+    background-color: darkcyan;
+}
+
+p.individual {
+    color: darkorange;
+}
+
+.individual {
+    font-weight: bold;
+}
+
+span {
+    color: darkviolet;
+}
+
+div>p {
+    font-weight: bold;
+    font-style: oblique;
+}  
+
+/* Colores: 
+    Por nombre: black, pink, green...
+    RGB: 
+        rojo: rgb(255, 0, 0)
+        verde: rgb(0, 255, 0)
+        azul: rgb(0, 0, 255)
+        ?: rgb(135, 200, 28)
+    HEXA: #XXXXXX
+        blanco: #FFFFFF
+        negro: #000000
+        rojo: #FF0000
+        verde: #00FF00
+        azul: #0000FF
+    HUE: 
+        negro: hsl(0, 0%, 0%)
+        blanco: hsl(0, 0% 100%)
+        rojo: hsl(0, 100%, 50%)
+*/
+
+/* Tipografias: ::after
+    font-family
+    font-size: 20px / 25% / 3em
+    font-weight: normal, bold, semi-bold / 100 - 900
+    font-style: italic, oblique, normal
+
+    text-transform: uppercase; convierte todo a mayuscula
+                    lowercase; convierte todo a minuscula
+    text-align: center, left, rigth, justify
+    vertical-align: top, center, bottom
+*/

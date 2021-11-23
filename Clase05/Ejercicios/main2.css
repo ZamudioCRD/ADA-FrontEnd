@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding: 0 0 40px;
+}
+
+.flex-basis25 {
+    box-sizing: content-box;
+    flex-basis: 25%;
+}
+
+.flex-grow {
+    box-sizing: content-box;
+    flex-grow: 1;
+}
+
+.ancho50 {
+    box-sizing: content-box;
+    flex-basis: 50%;
+}
+
+.color1 {
+    background-color: dimgray;
+}
+
+.color2 {
+    background-color: firebrick;
+}
+
+.color3 {
+    background-color: green;
+}
